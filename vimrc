@@ -39,8 +39,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 let mapleader=" "
-noremap <Leader><S-O> :split<CR>
-noremap <Leader><S-E> :vsplit<CR>
+noremap <Leader><S-o> :split<CR>
+noremap <Leader><S-e> :vsplit<CR>
 
 noremap <Leader>f :Files<CR>
 
