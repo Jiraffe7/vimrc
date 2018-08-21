@@ -39,14 +39,18 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 let mapleader=" "
-noremap <Leader><S-o> :split<CR>
-noremap <Leader><S-e> :vsplit<CR>
+nnoremap <Leader>o :split<CR>
+nnoremap <Leader>e :vsplit<CR>
+nnoremap <C-S-h> <C-w>h
+nnoremap <C-S-j> <C-w>j
+nnoremap <C-S-k> <C-w>k
+nnoremap <C-S-l> <C-w>l
 
-noremap <Leader>f :Files<CR>
+nnoremap <Leader>f :Files<CR>
 
 let NERDTreeShowHidden=1
-noremap <Leader>n :NERDTreeToggle<CR>
-noremap <Leader>j :NERDTreeFind<CR>
+nnoremap <Leader>n :NERDTreeToggle<CR>
+nnoremap <Leader>j :NERDTreeFind<CR>
 
 set background=dark
 let g:solarized_termtrans = 1
