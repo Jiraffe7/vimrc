@@ -39,12 +39,23 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 let mapleader=" "
+
+" Window mappings
 nnoremap <Leader>o :split<CR>
 nnoremap <Leader>e :vsplit<CR>
 nnoremap <C-S-h> <C-w>h
 nnoremap <C-S-j> <C-w>j
 nnoremap <C-S-k> <C-w>k
 nnoremap <C-S-l> <C-w>l
+
+" Auto brace mappings
+inoremap () ()<left>
+inoremap [] []<left>
+inoremap {} {}<left>
+inoremap <lt>> <lt>><left>
+inoremap '' ''<left>
+inoremap "" ""<left>
+inoremap `` ``<left>
 
 nnoremap <Leader>f :Files<CR>
 
