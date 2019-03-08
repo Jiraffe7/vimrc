@@ -47,6 +47,8 @@ nnoremap <C-S-h> <C-w>h
 nnoremap <C-S-j> <C-w>j
 nnoremap <C-S-k> <C-w>k
 nnoremap <C-S-l> <C-w>l
+set splitright
+set splitbelow
 
 nnoremap <Leader>f :Files<CR>
 
