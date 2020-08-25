@@ -24,6 +24,11 @@ nnoremap <C-S-l> <C-w>l
 set splitright
 set splitbelow
 
+" Copy paste mappings
+vnoremap <Leader>c "+y
+vnoremap <Leader>v "+p
+nnoremap <Leader>v "+p
+
 nnoremap <Leader>f :Files<CR>
 
 let NERDTreeShowHidden=1
