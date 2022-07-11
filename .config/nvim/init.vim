@@ -61,6 +61,8 @@ let NERDTreeShowHidden=1
 nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>N :NERDTreeFind<CR>
 
+let $FZF_DEFAULT_COMMAND = "rg --files --hidden --follow --glob '!.git'"
+
 nnoremap <leader>g :RG<CR>
 command! -bang -nargs=* Rg
   \ call fzf#vim#grep(
